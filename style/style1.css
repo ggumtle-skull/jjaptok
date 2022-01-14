@@ -1,0 +1,55 @@
+@import "reset.css";
+@import "conponents/status-bar.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+}
+.header__friend {
+  font-size: 32px;
+  font-weight: 600;
+}
+.header__icon {
+  margin-left: 25px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+  background-color: yellows;
+}
+.div__icon {
+  margin-left: 10px;
+  font-size: 40px;
+  align-items: center;
+}
+.div__mes {
+}
+.div__icon2 {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Under-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.Under-bar__head {
+  display: flex;
+  justify-content: space-between;
+}
+.Under-bar__icon {
+}

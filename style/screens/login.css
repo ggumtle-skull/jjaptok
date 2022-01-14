@@ -1,0 +1,61 @@
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.welcome-header__title {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.welcome-header__text {
+  color: gray;
+  text-align: center;
+}
+.log-out__epn {
+  display: flex;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 70%;
+  height: 30px;
+}
+.log-out {
+  display: flex;
+  flex-direction: column;
+}
+.log-out__pass {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 70%;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.log-out__login {
+  justify-content: center;
+  margin: 5px 5px;
+  border: none;
+  background-color: yellow;
+  height: 30px;
+  align-items: center;
+}
+.log-out__sign {
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 30px;
+  margin: 5px;
+}
+.log-out__text {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
