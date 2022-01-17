@@ -1,0 +1,85 @@
+@import "reset.css";
+@import "conponents/status-bar.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+}
+.header__friend {
+  font-size: 32px;
+  font-weight: 600;
+}
+.header__icon {
+  margin-left: 25px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* 가로 정렬 */
+}
+.div__icon {
+  margin-left: 10px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.div__time {
+  color: gray;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.div__number {
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+  width: 25px;
+  text-align: center;
+}
+
+.div__mesFrame {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 75%;
+  margin-top: 10px;
+}
+
+.div__mes {
+  font-size: 16px;
+}
+
+.div__sang {
+  font-size: 16px;
+  color: lightgray;
+}
+
+.Under-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.Under-bar__head {
+  display: flex;
+  justify-content: space-between;
+}
+.tise img {
+  width: 90%;
+  margin: 10px 30px;
+  border-radius: 50px;
+}
