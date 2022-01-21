@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head__logo {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.head__right {
+  display: flex;
+  flex-direction: column;
+}
+.head__sky {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.head__ni {
+  margin-right: 10px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: auto;
+  font-weight: bold;
+}
+.img {
+  width: 100%;
+}
+.section {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.section__aside {
+  width: 200px;
+  padding: 15px 5px 10px 5px;
+  float: left;
+  margin-right: 20px;
+}
+.aside__head {
+  font-weight: bold;
+  background-color: darkcyan;
+  padding: 5px 0px 5px 5px;
+  color: white;
+}
+.aside__search {
+  width: 150px;
+}
+.aside__bake {
+  border-top: black 3px solid;
+  border-bottom: black 1px dotted;
+  padding: 5px 0px 5px 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.aside__chat {
+  border: 1px aqua solid;
+  padding: 0px 0px 8px 8px;
+}
+.aside__chat1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer {
+  background-color: black;
+  clear: both;
+  height: 174px;
+}
+.footer__head {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  font-size: 12px;
+  margin-left: 50px;
+  padding-top: 5px;
+}
+.footer__1 {
+  color: white;
+  margin: 0;
+  margin-left: 50px;
+  padding: 0;
+  float: left;
+}
+.footer__1-1 {
+  color: darkcyan;
+}
+.footer__1-2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer__1-3 {
+  font-size: 12px;
+}
+.footer__2 {
+  color: white;
+}
+.footer__2-1 {
+  color: darkcyan;
+}
+.footer__2-2 {
+  font-size: 12px;
+}

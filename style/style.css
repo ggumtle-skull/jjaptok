@@ -1,7 +1,0 @@
-@import "reset.css";
-@import "components/status.css";
-@import "screens/login.css";
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
