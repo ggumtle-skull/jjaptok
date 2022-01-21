@@ -44,6 +44,7 @@
   background-color: yellow;
   height: 30px;
   align-items: center;
+  border-radius: 10px;
 }
 .log-out__sign {
   margin-bottom: 30px;
@@ -52,6 +53,7 @@
   border: none;
   height: 30px;
   margin: 5px;
+  border-radius: 10px;
 }
 .log-out__text {
   display: flex;
